@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-"scripts": {
-  "start": "node app.js",
-  "server": "nodemon app.js"
-},
+  "scripts": {
+    "server:debug": "nodemon --inspect app.js",
+    "server": "nodemon app.js",
+    "start": "node app.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
